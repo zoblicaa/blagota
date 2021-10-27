@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #ADD8E6;
+  line-height: 2;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #66BFBF;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  margin: 162px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: white;
+}
+
+h2 {
+  font-family: "Lucida Console", monospace;
+  font-size: 2.5rem;
+  color: #008B8B;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Courier New", monospace;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.profile {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.code {
+  height: 300px;
+  width: 40%;
+  float: left;
+  margin-right: 6.25%;
+  border-radius: 20%;
+}
+
+.chillies {
+  height: 280px;
+  width: 35%;
+  float: right;
+  margin-left: 6.25%;
+  border-radius: 50%;
+}
+
+.bottom-container {
+  background-color: #11999E;
+}
+
+.footer-link {
+  padding: 30px;
+}
+
+.podnaslov {
+  font-weight: normal;
+  font-family: "Courier New", monospace;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #A9A9A9;
+  border-width: 10px;
+  width: 5%;
+}
+
+.bio {
+  padding-left: 20%;
+  padding-right: 20%
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  font-family: "Lucida Console", monospace;
+}
+
+.BUTTON_TAC {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+  background-image: -moz-linear-gradient(top, #11999E, #11999E);
+  background-image: -ms-linear-gradient(top, #11999E, #11999E);
+  background-image: -o-linear-gradient(top, #11999E, #11999E);
+  background-image: -webkit-gradient(to bottom, #11999E, #11999E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 16px;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.BUTTON_TAC:hover {
+  border: solid #FFFFFF 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
